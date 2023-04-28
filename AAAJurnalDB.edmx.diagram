@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="136880b87245460280cb03e588e8f77f" Name="Diagram1">
+        <EntityTypeShape EntityType="AAAJurnalDB1Model.Assessment" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AAAJurnalDB1Model.Cours" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AAAJurnalDB1Model.Jurnal" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AAAJurnalDB1Model.People" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AAAJurnalDB1Model.Predmet" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AAAJurnalDB1Model.Student" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AAAJurnalDB1Model.StudentGroup" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="AAAJurnalDB1Model.FK__Jurnal__Assessme__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="AAAJurnalDB1Model.FK__Student__Cours__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="AAAJurnalDB1Model.FK__Jurnal__Predmet__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="AAAJurnalDB1Model.FK__Jurnal__Student__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="AAAJurnalDB1Model.FK__Student__People__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="AAAJurnalDB1Model.FK__Student__TitleGr__45F365D3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
